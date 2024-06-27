@@ -1,0 +1,38 @@
+.list-cell {
+    -fx-background-color: #270875;
+    -fx-background-radius: 3px;
+    -fx-padding: 0.4em 0.8em 0.4em 0.8em; /* 4 8 4 8 */
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.combo-box {
+    -fx-background-color: #270875;
+    -fx-background-radius: 5;
+    -fx-border-color: #0b0b17;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.slider .thumb {
+    -fx-background-color: #270875;
+}
+
+.slider .thumb .thumb-label {
+    -fx-background-color: #270875;
+}
+
+.slider .track {
+    -fx-background-color: #6A5ACD;
+}
+
+.slider .range-bar {
+    -fx-background-color: #6A5ACD;
+}
